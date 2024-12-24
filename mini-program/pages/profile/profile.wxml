@@ -1,0 +1,36 @@
+<view class="container">
+  <!-- 用户信息区域 -->
+  <view class="user-info">
+    <view class="avatar-wrapper">
+      <image class="avatar" src="{{userInfo.avatarUrl || '/images/default-avatar.png'}}" mode="aspectFill"/>
+    </view>
+    <view class="user-detail">
+      <text class="nickname">{{userInfo.nickName || '未登录'}}</text>
+      <button wx:if="{{!userInfo}}" class="login-btn" bindtap="handleLogin">点击登录</button>
+    </view>
+  </view>
+
+  <!-- 功能列表 -->
+  <view class="function-list">
+    <view class="function-item" bindtap="handleCollect">
+      <view class="function-icon">📑</view>
+      <text class="function-text">我的收藏</text>
+      <view class="arrow">></view>
+    </view>
+    <view class="function-item" bindtap="handleHistory">
+      <view class="function-icon">📖</view>
+      <text class="function-text">浏览历史</text>
+      <view class="arrow">></view>
+    </view>
+    <view class="function-item" bindtap="handleFeedback">
+      <view class="function-icon">📮</view>
+      <text class="function-text">意见反馈</text>
+      <view class="arrow">></view>
+    </view>
+    <view class="function-item" bindtap="handleAbout">
+      <view class="function-icon">ℹ️</view>
+      <text class="function-text">关于我们</text>
+      <view class="arrow">></view>
+    </view>
+  </view>
+</view>

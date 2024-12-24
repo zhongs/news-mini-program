@@ -1,0 +1,44 @@
+.container {
+  padding: 0;
+  background: #fff;
+}
+
+.article {
+  padding: 30rpx;
+}
+
+.header {
+  margin-bottom: 30rpx;
+}
+
+.title {
+  font-size: 40rpx;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 20rpx;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.category {
+  color: #007AFF;
+  margin-right: 20rpx;
+}
+
+.cover-image {
+  width: 100%;
+  margin: 20rpx 0;
+  border-radius: 10rpx;
+}
+
+.content {
+  font-size: 30rpx;
+  line-height: 1.8;
+  color: #333;
+  margin-top: 30rpx;
+}

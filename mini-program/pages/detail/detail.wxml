@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="article">
+    <view class="header">
+      <text class="title">{{news.title}}</text>
+      <view class="meta">
+        <text class="category">{{news.category}}</text>
+        <text class="time">{{news.publishTime}}</text>
+      </view>
+    </view>
+    
+    <image class="cover-image" src="{{news.imageUrl}}" mode="widthFix"/>
+    
+    <view class="content">
+      {{news.content}}
+    </view>
+  </view>
+</view>

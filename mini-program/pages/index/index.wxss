@@ -1,0 +1,84 @@
+.container {
+  padding: 0;
+  background: #f6f6f6;
+}
+
+/* 轮播图样式 */
+.banner {
+  width: 100%;
+  height: 360rpx;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  color: #fff;
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+
+/* 新闻列表样式 */
+.news-list {
+  padding: 20rpx;
+}
+
+.news-item {
+  display: flex;
+  padding: 20rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+}
+
+.news-image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.news-info {
+  flex: 1;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.news-summary {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.news-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: auto;
+}
+
+.news-category {
+  color: #007AFF;
+}

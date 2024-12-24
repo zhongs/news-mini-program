@@ -1,0 +1,13 @@
+{
+  "name": "news-mini-program-server",
+  "version": "1.0.0",
+  "description": "Express server for news mini program",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
